@@ -1,7 +1,10 @@
-function Hello() {
+function Hello({ helloObject }) {
   return (
     <div>
-      <h1>Hello from Hello component</h1>
+      <h1>
+        {helloObject.message} {helloObject.name} {helloObject.emoji}{" "}
+        {helloObject.numArray.join(", ")}
+      </h1>
     </div>
   );
 }
