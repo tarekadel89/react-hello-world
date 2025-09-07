@@ -2,7 +2,7 @@
   "name": "react-hello-world",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://tarekadel89.github.io/react-hello-world",
+  "homepage": "https://tarekadel89.github.io/react-hello-world/",
   "type": "module",
   "scripts": {
     "dev": "vite",
